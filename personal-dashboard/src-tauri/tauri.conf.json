@@ -4,8 +4,7 @@
   "version": "0.1.0",
   "identifier": "com.projectdashboard.app",
   "build": {
-  "devUrl": "http://localhost:5173",
-  "frontendDist": "../frontend/dist"
+  "frontendDist": "../src"
 },
   "app": {
     "withGlobalTauri": true,
