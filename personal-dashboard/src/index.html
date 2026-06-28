@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TAURI TEST</title>
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="/main.js" defer></script>
+    <script type="module" src="./main.js" defer></script>
   </head>
 
   <body>
-  
+    <div style="position:fixed;top:0;left:0;z-index:99999;background:red;color:white;font-size:30px;padding:10px;">
+      THIS IS SRC INDEX.HTML
     </div>
+
+    <h1 style="text-align:center;margin-top:120px;">
+      IF YOU SEE THIS, SRC IS LOADING
+    </h1>
+
+    <button onclick="document.body.style.background='lime'">
+      CLICK TO CHANGE BACKGROUND
+    </button>
   </body>
 </html>
