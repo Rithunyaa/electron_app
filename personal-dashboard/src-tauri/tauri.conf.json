@@ -5,6 +5,7 @@
   "identifier": "com.projectdashboard.app",
 
   "build": {
+    "devUrl": null,
     "frontendDist": "../src"
   },
 
