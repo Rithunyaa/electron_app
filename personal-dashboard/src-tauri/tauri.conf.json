@@ -3,22 +3,26 @@
   "productName": "personal-dashboard",
   "version": "0.1.0",
   "identifier": "com.projectdashboard.app",
+
   "build": {
-  "frontendDist": "../src"
-},
+    "frontendDist": "../src"
+  },
+
   "app": {
     "withGlobalTauri": true,
     "windows": [
       {
         "title": "personal-dashboard",
         "width": 800,
-        "height": 600
+        "height": 600,
+        "devtools": true
       }
     ],
     "security": {
       "csp": null
     }
   },
+
   "bundle": {
     "active": true,
     "targets": "all",
