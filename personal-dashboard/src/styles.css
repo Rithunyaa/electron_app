@@ -1,51 +1,48 @@
 :root {
-  font-family: "Comic Sans MS", Arial, sans-serif;
-  font-size: 28px;
-  background-color: #ff00ff;
-  color: #00ffcc;
+  background: black;
+  color: white;
+  font-family: Arial;
 }
 
 body {
   margin: 0;
-  padding: 0;
-  background: linear-gradient(45deg, #ff0000, #0000ff);
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    filter: hue-rotate(0deg);
-  }
-  50% {
-    filter: hue-rotate(180deg);
-  }
-  100% {
-    filter: hue-rotate(360deg);
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .container {
   text-align: center;
-  padding-top: 20vh;
 }
 
 h1 {
-  font-size: 60px;
-  color: yellow;
-  text-shadow: 0 0 20px black;
+  color: red;
+  font-size: 50px;
+}
+
+.big-box {
+  width: 200px;
+  height: 80px;
+  margin: 10px auto;
+  background: lime;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
-  background-color: #00ff00;
-  color: black;
-  font-size: 24px;
-  padding: 15px 30px;
-  border: 5px solid black;
+  padding: 20px;
+  font-size: 20px;
+  background: blue;
+  color: white;
+  border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #ff0000;
-  color: white;
-  transform: scale(1.2);
+  background: orange;
 }
