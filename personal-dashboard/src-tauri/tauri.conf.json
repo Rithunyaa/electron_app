@@ -10,7 +10,6 @@
   "beforeBuildCommand": "npm run build --prefix frontend",
   "frontendDist": "../frontend/dist"
 },
-
   "app": {
     "withGlobalTauri": true,
     "windows": [
